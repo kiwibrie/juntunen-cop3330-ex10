@@ -28,8 +28,8 @@ public class App {
     }
 
     public void printOutput(float subtotal, float tax, float total){
-        System.out.printf("Subtotal: $%.2f", subtotal);
-        System.out.printf("Tax: $%.2f", tax);
+        System.out.printf("Subtotal: $%.2f\n", subtotal);
+        System.out.printf("Tax: $%.2f\n", tax);
         System.out.printf("Total: $%.2f", total);
     }
 
